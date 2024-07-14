@@ -1,0 +1,58 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.title, .item {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.title-group, .icon-group {
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-group {
+    gap: 5px;
+}
+
+.title-group-icon {
+    border-radius: 100%;
+    border: 1px solid #D3D8DF;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.items li button {
+    margin-left: 10px;
+}
+
+object[type="image/svg+xml"] {
+    fill: #333;
+}
+
+.category {
+    position: relative;
+}
+
+.category.drop-target {
+    border-bottom: 1px solid blue;
+}
